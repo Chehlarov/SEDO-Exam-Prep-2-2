@@ -1,6 +1,7 @@
 name: Build and test House renting
 
 on:
+  push:
   pull_request:
     branches:
       - develop
